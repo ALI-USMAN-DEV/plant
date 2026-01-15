@@ -1,0 +1,50 @@
+========================================
+QUICK SETUP COMMANDS
+========================================
+
+Apne XAMPP aur Composer paths replace karo, phir ye commands run karo:
+
+1. Backend directory:
+   cd C:\Users\ah516\Desktop\apk\backend
+
+2. Composer install:
+   composer install
+   (Ya: & "C:\Users\YourName\AppData\Local\ComposerSetup\bin\composer.bat" install)
+
+3. Generate app key:
+   & "C:\xampp\php\php.exe" artisan key:generate
+   (Apna XAMPP path replace karo)
+
+4. Create database in phpMyAdmin:
+   - Open: http://localhost/phpmyadmin
+   - Create: plant_layout
+   - Collation: utf8mb4_unicode_ci
+
+5. Run migrations:
+   & "C:\xampp\php\php.exe" artisan migrate
+
+6. Seed database:
+   & "C:\xampp\php\php.exe" artisan db:seed
+
+7. Storage link:
+   & "C:\xampp\php\php.exe" artisan storage:link
+
+8. Start server:
+   & "C:\xampp\php\php.exe" artisan serve
+
+========================================
+XAMPP PATH FIND KARNE KA TARIKA:
+========================================
+
+1. XAMPP Control Panel open karo
+2. "Config" button click karo (Apache ke saamne)
+3. "httpd.conf" open karo
+4. Pehli line mein path dikhega
+
+Ya:
+
+1. XAMPP folder kholo
+2. "php" folder mein jao
+3. "php.exe" ka full path copy karo
+
+========================================

@@ -1,0 +1,60 @@
+name: plant_layout_viewer
+description: Interactive Plant Layout & Risk Assessment Viewer
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # State Management
+  provider: ^6.1.1
+  
+  # HTTP & API
+  http: ^1.1.0
+  dio: ^5.4.0
+  
+  # Local Storage
+  shared_preferences: ^2.2.2
+  
+  # Maps - Leaflet
+  flutter_map: ^7.0.2
+  latlong2: ^0.9.1
+  
+  # Image Handling
+  image_picker: ^1.0.5
+  cached_network_image: ^3.3.0
+  
+  # File Handling
+  file_picker: ^8.1.2
+  path_provider: ^2.1.1
+  
+  # PDF
+  pdf: ^3.10.7
+  printing: ^5.12.0
+  
+  # UI Components
+  flutter_quill: ^9.2.0
+  data_table_2: ^2.5.15
+  flutter_colorpicker: ^1.0.3
+  
+  # Utils
+  intl: ^0.20.2
+  uuid: ^4.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  
+  # assets:
+  #   - assets/icons/
+  
+  # Google Maps API Key - Add to AndroidManifest.xml and Info.plist
+  # See documentation for setup instructions
